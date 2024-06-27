@@ -1,10 +1,10 @@
-'use client'
+"use client"
 import { IoIosMail } from 'react-icons/io';
 import { FaTwitter, FaFacebook, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 const Icon = ({ children }) => {
     return (
-        <div className="text-yellow-400 m-2 transition-transform duration-200 hover:scale-110">
+        <div className="text-orange-custom m-2 transition-transform duration-200 hover:scale-110">
             {children}
         </div>
     );
@@ -12,10 +12,10 @@ const Icon = ({ children }) => {
 
 const Contact = () => {
     return (
-        <section id="contact">
-            <div className="font-Poppins flex flex-col items-center gap-4 mx-4 lg:mx-40 mt-6 mb-8">
-                <h1 className="text-3xl m-2 font-bold text-yellow-400">Connect with Me!</h1>
-                <div className="flex gap-4 ">
+        <section id="contact" className="p-12 rounded-xl mx-auto max-w-screen-xl">
+            <div className="relative flex flex-col items-center p-10 mx-auto bg-light-blueish-gray shadow-2xl rounded-xl">
+                <h1 className="text-3xl m-2 font-bold text-orange-custom">Connect with Me!</h1>
+                <div className="flex gap-4 mt-4 mb-8">
                     <a href="mailto:amitkiit1994@gmail.com" target='_blank'>
                         <Icon>
                             <IoIosMail />
@@ -47,7 +47,7 @@ const Contact = () => {
                         </Icon>
                     </a>
                 </div>
-                <p className="text-yellow-400">&#169; 2024 Copyright Amit Kumar Das - All Rights Reserved.</p>
+                <p className="text-gray-600">&#169; 2024 Copyright Amit Kumar Das - All Rights Reserved.</p>
             </div>
         </section>
     );
