@@ -8,23 +8,23 @@ import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
     return (
-        <div className="p-2 rounded-xl mx-auto max-w-screen-xl">
+        <div className="p-2 rounded-xl mx-auto max-w-screen-sm">
             <div className="relative flex flex-col items-center md:flex-row-reverse p-2 mx-auto bg-light-blueish-gray shadow-2xl rounded-xl">
-                <div className="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pl-10">
-                <div className="relative w-full p-12 rounded-xl">
-                    <div className="rounded-full bg-medium-blue w-full shadow-2xl ">
+                <div className="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pl-10 ">
+                <div className="relative w-full p-2 ">
+                    <div className="rounded-full bg-medium-blue shadow-2xl">
                         <Image src={hero}
                             className='rounded-full shadow-2xl' />
                     </div>
                 </div>
                 </div>
-                <div className="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pr-10 p-12">
+                <div className="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pr-10 p-14">
                     <div className="text-left">
-                        <h3 className="leading-tight text-2xl text-medium-blue">
+                        <h3 className="leading-tight text-l text-medium-blue">
                             Hi! I'm
                         </h3>
-                        <h2 className='mt-2 text-black text-4xl '>Amit Kumar Das</h2>
-                        <div className='text-3xl sm:text-4xl lg:text-2xl mt-1 text-medium-blue'>
+                        <h2 className='mt-2 text-black text-xl '>Amit Kumar Das</h2>
+                        <div className='text-3xl sm:text-xl lg:text-l mt-1 text-medium-blue'>
                             <Typewriter
                                 options={{
                                     strings: ["A Tech Innovator", "A Visionary Leader", "A Creative Thinker"],
