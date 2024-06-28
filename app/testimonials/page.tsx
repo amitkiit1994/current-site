@@ -45,8 +45,8 @@ const testimonials = [
 
 const Testimonials = () => {
     return (
-        <section id="testimonials" className="p-4 rounded-xl mx-auto max-w-screen-xl">
-            <div className="relative flex flex-col items-center p-6 mx-auto bg-light-blueish-gray shadow-2xl rounded-xl">
+        <section id="testimonials" className="p-2 rounded-xl mx-auto max-w-screen-xl">
+            <div className="relative flex flex-col items-center p-2 mx-auto bg-light-blueish-gray shadow-2xl rounded-xl">
                 <h1 className="text-5xl m-4 p-2 text-center text-orange-custom">
                     What others think of me?
                 </h1>

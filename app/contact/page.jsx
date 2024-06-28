@@ -12,8 +12,8 @@ const Icon = ({ children }) => {
 
 const Contact = () => {
     return (
-        <section id="contact" className="p-12 rounded-xl mx-auto max-w-screen-xl">
-            <div className="relative flex flex-col items-center p-10 mx-auto bg-light-blueish-gray shadow-2xl rounded-xl">
+        <section id="contact" className="p-2 rounded-xl mx-auto max-w-screen-xl">
+            <div className="relative flex flex-col items-center p-2 mx-auto bg-light-blueish-gray shadow-2xl rounded-xl">
                 <h1 className="text-3xl m-2 font-bold text-orange-custom">Connect with Me!</h1>
                 <div className="flex gap-4 mt-4 mb-8">
                     <a href="mailto:amitkiit1994@gmail.com" target='_blank'>
