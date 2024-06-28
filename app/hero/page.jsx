@@ -8,17 +8,17 @@ import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
     return (
-        <div className="p-8 rounded-xl mx-auto max-w-screen-xl">
-            <div className="relative flex flex-col items-center md:flex-row-reverse p-12 mx-auto bg-light-blueish-gray shadow-2xl rounded-xl">
+        <div className="p-2 rounded-xl mx-auto max-w-screen-xl">
+            <div className="relative flex flex-col items-center md:flex-row-reverse p-2 mx-auto bg-light-blueish-gray shadow-2xl rounded-xl">
                 <div className="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pl-10">
-                <div className="relative w-full p-0 rounded-xl">
+                <div className="relative w-full p-12 rounded-xl">
                     <div className="rounded-full bg-medium-blue w-full shadow-2xl ">
                         <Image src={hero}
                             className='rounded-full shadow-2xl' />
                     </div>
                 </div>
                 </div>
-                <div className="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pr-10">
+                <div className="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pr-10 p-12">
                     <div className="text-left">
                         <h3 className="leading-tight text-2xl text-medium-blue">
                             Hi! I'm
