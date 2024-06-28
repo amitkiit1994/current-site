@@ -24,7 +24,7 @@ const Hero = () => {
                             Hi! I'm
                         </h3>
                         <h2 className='mt-2 text-black text-xl '>Amit Kumar Das</h2>
-                        <div className='text-3xl sm:text-xl lg:text-l mt-1 text-medium-blue'>
+                        <div className='text-l sm:text-l lg:text-l mt-1 text-medium-blue'>
                             <Typewriter
                                 options={{
                                     strings: ["A Tech Innovator", "A Visionary Leader", "A Creative Thinker"],
