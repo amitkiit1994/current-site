@@ -3,12 +3,12 @@
 import { navItems } from "@/data";
 
 import Hero from "@/components/Hero";
-import Grid from "@/components/Grid";
+import Grid from "@/components/About";
 import Footer from "@/components/Footer";
-import Clients from "@/components/Clients";
+import Recommendations from "@/components/Recommendations";
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
-import RecentProjects from "@/components/RecentProjects";
+import { JourneyTimeline } from "@/components/JourneyTimeline";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 
 const Home = () => {
@@ -18,10 +18,10 @@ const Home = () => {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
-        <RecentProjects />
-        <Clients />
-        <Experience />
-        <Approach />
+        <JourneyTimeline />
+        <Recommendations />
+        {/* <Experience />
+        <Approach /> */}
         <Footer />
       </div>
     </main>

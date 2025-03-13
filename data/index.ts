@@ -1,71 +1,74 @@
 export const navItems = [
   { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Journey", link: "#journey" },
+  { name: "Recommendations", link: "#recommendations" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-    img: "/b1.svg",
-    spareImg: "",
-  },
-  {
-    id: 2,
-    title: "I'm very flexible with time zone communications",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "",
-    spareImg: "",
-  },
-  {
-    id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-center",
-    img: "",
-    spareImg: "",
+    title: "About Me",
+    description:
+      "I am an engineering post-graduate with a deep passion for technology and software development, committed to building high-impact, scalable solutions. My career has focused on optimizing engineering productivity, ensuring system reliability, and streamlining release engineering processes. While leading a talented team to enhance Jio’s Ecommerce ecosystem—including JioMart, TIRA, JioMart Partners, Fynd Retail Platform, JioMarket, and JioMart Digital—I encountered challenges in maintaining efficiency, scalability, and automation in modern software development. These experiences inspired me to co-found ratl.ai, an AI-powered platform that automates and optimizes post-development processes.This platform aims to revolutionize software quality, boost developer productivity, and redefine how engineering teams tackle testing at scale",
+    className:
+      "lg:col-span-3 md:col-span-6 md:row-span-3 p-6 flex flex-col justify-start",
+    titleClassName: "text-left",
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    title: "Leading Engineering at Ratl.ai",
+    description:
+      "As the Co-founder and Head of Engineering at Ratl.ai, I am spearheading the future of AI-driven software testing and automation. At Ratl.ai, we are redefining how engineering teams approach continuous testing, reliability engineering, and DevOps automation by leveraging multi-agent AI systems. Our platform seamlessly integrates intelligent automation, adaptive test generation, performance benchmarking, and real-time monitoring, ensuring that software not only meets but exceeds industry standards in scalability, security, and user experience. By eliminating bottlenecks in the development-to-deployment lifecycle, we empower teams to ship faster, smarter, and with confidence—pushing the boundaries of what’s possible in modern software engineering.",
+    className:
+      "lg:col-span-2 md:col-span-6 md:row-span-3 p-6 flex flex-col justify-start",
+    titleClassName: "text-left",
   },
-
+  {
+    id: 2,
+    title: "My Expertise",
+    description:
+      "I specialize in scaling high-performance applications, optimizing CI/CD pipelines, and engineering fault-tolerant, self-healing systems. With expertise in containerization (Docker, Kubernetes), microservices orchestration, chaos engineering, and cloud observability, I thrive on solving mission-critical bottlenecks and fine-tuning system latencies to drive engineering efficiency at scale. My technical stack spans full-stack development, distributed systems, and intelligent automation, leveraging technologies like Next.js, React.js, Node.js, Python, Go, FastAPI, and Express.js, backed by MongoDB, PostgreSQL, and Redis. I have deep experience with cloud platforms (AWS, GCP, Azure), CI/CD automation (GitHub Actions, ArgoCD, Tekton), infrastructure as code (Terraform, Pulumi), and API design with GraphQL and REST. Additionally, I integrate AI-driven automation with frameworks like LangChain and OpenAI APIs, along with performance testing using Gatling, JMeter, and Locust. My focus remains on building resilient, scalable, and AI-augmented engineering solutions that ensure seamless development, deployment, and system reliability.",
+    className:
+      "lg:col-span-3 md:col-span-3 md:row-span-2 p-6 flex flex-col justify-start",
+    titleClassName: "text-left",
+  },
+  {
+    id: 3,
+    title: "Staying Ahead in Tech",
+    description:
+      "With a relentless drive to stay at the forefront of technology, I actively engage in tech communities, educational tech channels, and other learning avenues. During my downtime, I enjoy solving coding challenges, working on personal projects, gaming, and strumming the guitar.",
+    className:
+      "lg:col-span-2 md:col-span-3 md:row-span-2 p-6 flex flex-col justify-start",
+    titleClassName: "text-left",
+  },
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
-    className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
+    title: "Leveraging AI for Innovation",
+    description:
+      "I actively explore generative AI technologies like OpenAI, Gemini, and the LangChain framework to create cutting-edge, AI-driven solutions that push the boundaries of innovation.",
+    className:
+      "lg:col-span-2 md:col-span-3 md:row-span-2 p-6 flex flex-col justify-start",
+    titleClassName: "text-left",
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-    img: "",
-    spareImg: "",
+    title: "Previous Experience",
+    description:
+      "With a background spanning Microsoft, Jio, SAS, and Infosys, I have honed my expertise in software engineering, system architecture, and automation. My experience includes driving large-scale technology initiatives, optimizing performance, and building scalable, resilient solutions across diverse industries.",
+
+    className:
+      "lg:col-span-2 md:col-span-3 md:row-span-2 p-6 flex flex-col justify-start",
+    titleClassName: "text-left",
+  },
+  {
+    id: 8,
+    title: "My Mantra",
+    description:
+      '"If I have to do a task more than twice, I automate it. If I have to explain a task more than twice, I document it."',
+    className:
+      "lg:col-span-1 md:col-span-3 md:row-span-2 p-6 flex flex-col justify-start",
+    titleClassName: "text-left",
   },
 ];
 
@@ -107,33 +110,40 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I worked with Amit in one of the large, complex and demanding projects. I saw how quickly he gained the product knowledge, and how committed he was to his work. He was a quick learner and nothing was too difficult for him to take on, be it functional testing or automation. He was dependable, if he took a task in hand, rest assured it would get done and done well. He is always an asset to his team. I will recommend him highly.",
+    name: "Sunita Singh",
+    title: "Principal R&D Project Manager - SAS R&D India",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Amit is diligent, suave, and a problem solver. He efficiently learnt the existing application and contributed to their hotfixes as well as learnt the cloud-based new platform and lead from the front in the adoption and migration of the new platform. He took the initiatives for automating the test cases, which helped in reducing the regression time for the applications. Though very quiet, He very seamlessly integrated into the existing team and always was available for helping out the team members, which was appreciated by one and all in the team. It was a great experience working with Amit.",
+    name: "Ankit Mehrotra",
+    title: "Software Manager - SAS R&D India",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Amit is a self-motivated individual and a perfectionist. He has a good sense of what is required and has proven to be very adept at balancing competing and dynamic needs. It was a delight working with him since he has joined a year back to date as Senior Software Engineer - Testing. After assigning functional or GUI/API automation tasks, you don't need follow-up, he is perfect and complete work well ahead of the given deadline. Amit is very enthusiastic who builds a good relationship with team members. I found him bringing new ideas to discussions and solving problems, hence worth recommending.",
+    name: "Gorang Khandelwal",
+    title: "Software Manager - SAS R&D India",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Amit is a fantastic testing professional with command over cloud technologies, deployment, and DevOps domains. His detail-oriented and thorough approach, as well as a very helpful nature, make him a fantastic colleague to work with and a very reliable teammate. His experience in the retail domain and mastery over automation, web technologies, and testing fundamentals will be an asset to any team he works with. His ability to quickly access a situation and plan a course of action has helped his team achieve impossible targets. Wish him the best!",
+    name: "Mahesh Purandare",
+    title:
+      "Data science, Decision science, Data warehousing and BI professional - SAS R&D India",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I have worked with Amit for almost one and half years. In those years, I have seen him not only excel at doing manual testing but also doing automation testing. Amit's mastery for finding bugs helped team to provide quality product to the client. Because of his nature, everybody loves to work with him.",
+    name: "Santosh Revatgaon",
+    title: "Application development Senior Analyst - Accenture",
+  },
+  {
+    quote:
+      "Amit is a knowledgeable, dedicated and most of all helpful team member and an absolute pleasure to work with. Not only were his skills invaluable to the team his approachability and pleasant demeanor were a boost to team morale.",
+    name: "Kiran Seersath",
+    title: "Technical Lead - Cognizant",
   },
 ];
 
@@ -205,13 +215,26 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/amitkiit1994", // GitHub URL
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://twitter.com/AmitKdas94", // Twitter URL
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://linkedin.com/in/amitkiit1994", // LinkedIn URL
+  },
+  {
+    id: 4,
+    img: "/insta.svg",
+    link: "https://instagram.com/amitkumardas___", // Instagram URL
+  },
+  {
+    id: 5,
+    img: "/wha.svg",
+    link: "https://wa.me/918093151099", // WhatsApp link (update the number)
   },
 ];
