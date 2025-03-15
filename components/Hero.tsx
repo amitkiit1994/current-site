@@ -28,7 +28,20 @@ const Hero = () => {
         "/hero-img.jpeg",
     }]
   return (
-    <div className="pb-20 pt-36" id="hero"> {/* Increased padding from pt-36 to pt-48 */}
+    <div
+  id="hero"
+  className="
+    relative
+    z-20
+    min-h-screen  /* Make Hero fill full screen */
+    flex
+    flex-col
+    items-center
+    justify-center
+    py-20         /* Even top & bottom spacing */
+    scroll-mt-36  /* Offset for floating nav */
+  "
+>
       {/* Spotlights for background decoration */}
       <div>
         <Spotlight
@@ -55,7 +68,7 @@ const Hero = () => {
       </div>
 
       {/* Main hero content */}
-      <div className="flex justify-center relative my-20 z-10">
+      <div className="flex justify-center relative my-20 z-20">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           {/* Profile Picture Section */}
           <AnimatedProfileImage items={people} />
