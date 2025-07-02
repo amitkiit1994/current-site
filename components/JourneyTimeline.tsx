@@ -8,7 +8,7 @@ export function JourneyTimeline() {
   const data = [
     {
       title: "Cofounder and Head of Engineering",
-      image: "/ratl_logo.png", // Replace with your actual image path
+      image: "/ratl_logo.png",
       companyLink: "https://ratl.ai",
       content: (
         <div>

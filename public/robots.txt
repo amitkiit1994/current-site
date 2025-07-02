@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Block crawling of API routes
+Disallow: /api/
+
+# Block crawling of Sentry example page
+Disallow: /sentry-example-page/
+
+# Sitemap location
+Sitemap: https://your-domain.com/sitemap.xml
+
+# Host declaration
+Host: https://your-domain.com 
