@@ -1,9 +1,10 @@
 import { gridItems } from "@/data";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 
-const Grid = () => {
+const About = () => {
   return (
-    <section id="about">
+    <section id="about" className="py-20">
+      <h2 id="about-heading" className="sr-only">About Amit Kumar Das</h2>
       <BentoGrid className="w-full py-20">
         {gridItems.map((item, i) => (
           <BentoGridItem
@@ -20,4 +21,4 @@ const Grid = () => {
   );
 };
 
-export default Grid;
+export default About;

@@ -1,4 +1,5 @@
 import { FaLocationArrow } from "react-icons/fa6";
+import Image from "next/image";
 import { PlaceholdersAndVanishInput } from "./ui/placeholders-and-vanish-input";
 import { Button } from "./ui/MovingBorders";
 import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
@@ -28,20 +29,20 @@ const Hero = () => {
         "/hero-img.jpeg",
     }]
   return (
-    <div
-  id="hero"
-  className="
-    relative
-    z-20
-    min-h-screen  /* Make Hero fill full screen */
-    flex
-    flex-col
-    items-center
-    justify-center
-    py-20         /* Even top & bottom spacing */
-    scroll-mt-36  /* Offset for floating nav */
-  "
->
+    <header
+      id="hero"
+      className="
+        relative
+        z-20
+        min-h-screen  /* Make Hero fill full screen */
+        flex
+        flex-col
+        items-center
+        justify-center
+        py-20         /* Even top & bottom spacing */
+        scroll-mt-36  /* Offset for floating nav */
+      "
+    >
       {/* Spotlights for background decoration */}
       <div>
         <Spotlight
@@ -77,6 +78,7 @@ const Hero = () => {
             Leading AI Innovation
           </p>
 
+          <h1 className="sr-only">Amit Kumar Das - Co-founder & Engineering Leader</h1>
           <TextGenerateEffect
             words="Hi! I&apos;m Amit Kumar Das"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
@@ -85,11 +87,14 @@ const Hero = () => {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl flex items-center justify-center">
             Cofounder
             <span className="flex items-center ml-2">
-              <a href="https://ratl.ai" target="_blank" rel="noopener noreferrer">
-                <img
+              <a href="https://ratl.ai" target="_blank" rel="noopener noreferrer" aria-label="Visit ratl.ai website">
+                <Image
                   src="/ratl-logo.png"
-                  alt="ratl.ai Logo"
-                  className="h-9"
+                  alt="ratl.ai - AI-powered software testing automation platform"
+                  width={36}
+                  height={36}
+                  className="h-9 w-auto"
+                  priority
                 />
               </a>
             </span>
@@ -98,7 +103,7 @@ const Hero = () => {
           <TypewriterEffectSmooth words={words} />
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 
