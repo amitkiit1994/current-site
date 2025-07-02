@@ -1,11 +1,6 @@
 import { withSentryConfig } from '@sentry/nextjs';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // Enable experimental features for better SEO
-    experimental: {
-        optimizeCss: true,
-    },
-
     // Image optimization
     images: {
         formats: ['image/webp', 'image/avif'],
